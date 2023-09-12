@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Aurora Navigator",
+    "price": 249.99,
+    "image": "/assets/img/watch (1).jpg"
+  },
+  {
+    "id": 2,
+    "name": "Solaris Voyager",
+    "price": 349.99,
+    "image": "/assets/img/watch (2).jpg"
+  },
+  {
+    "id": 3,
+    "name": "Lunar Odyssey",
+    "price": 459.99,
+    "image": "/assets/img/watch (3).jpg"
+  },
+  {
+    "id": 4,
+    "name": "Zenith Explorer",
+    "price": 569.99,
+    "image": "/assets/img/watch (4).jpg"
+  },
+  {
+    "id": 5,
+    "name": "Stellar Trek",
+    "price": 679.99,
+    "image": "/assets/img/watch (5).jpg"
+  },
+  {
+    "id": 6,
+    "name": "Celestial Legacy",
+    "price": 789.99,
+    "image": "/assets/img/watch (6).jpg"
+  },
+  {
+    "id": 7,
+    "name": "Nebula Pathfinder",
+    "price": 899.99,
+    "image": "/assets/img/watch (7).jpg"
+  },
+  {
+    "id": 8,
+    "name": "Galactic Voyager",
+    "price": 999.99,
+    "image": "/assets/img/watch (8).jpg"
+  },
+  {
+    "id": 9,
+    "name": "Eclipse Nomad",
+    "price": 1109.99,
+    "image": "/assets/img/watch (9).jpg"
+  },
+  {
+    "id": 10,
+    "name": "Infinity Explorer",
+    "price": 1219.99,
+    "image": "/assets/img/watch (10).jpg"
+  },
+  {
+    "id": 11,
+    "name": "Horizon Pioneer",
+    "price": 1329.99,
+    "image": "/assets/img/watch (11).jpg"
+  },
+  {
+    "id": 12,
+    "name": "Nova Voyager",
+    "price": 1439.99,
+    "image": "/assets/img/watch (12).jpg"
+  },
+  {
+    "id": 13,
+    "name": "Vanguard Odyssey",
+    "price": 1549.99,
+    "image": "/assets/img/watch (13).jpg"
+  },
+  {
+    "id": 14,
+    "name": "Orion Expedition",
+    "price": 1659.99,
+    "image": "/assets/img/watch (14).jpg"
+  },
+  {
+    "id": 15,
+    "name": "Eclipse Legacy",
+    "price": 1769.99,
+    "image": "/assets/img/watch (15).jpg"
+  },
+  {
+    "id": 16,
+    "name": "Zenith Voyager",
+    "price": 1879.99,
+    "image": "/assets/img/watch (16).jpg"
+  },
+  {
+    "id": 17,
+    "name": "Luna Pioneer",
+    "price": 1989.99,
+    "image": "/assets/img/watch (17).jpg"
+  },
+  {
+    "id": 18,
+    "name": "Stellar Explorer",
+    "price": 2099.99,
+    "image": "/assets/img/watch (18).jpg"
+  },
+  {
+    "id": 19,
+    "name": "Aurora Quest",
+    "price": 2209.99,
+    "image": "/assets/img/watch (19).jpg"
+  },
+  {
+    "id": 20,
+    "name": "Solaris Legacy",
+    "price": 2319.99,
+    "image": "/assets/img/watch (20).jpg"
+  }
+]
