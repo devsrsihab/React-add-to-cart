@@ -1,5 +1,5 @@
-const Cart = ({ cartItem }) => {
-  const { name, image, price } = cartItem;
+const Cart = ({ cartItem, handleRemoveCart }) => {
+  const { name, image, price, id } = cartItem;
   console.log(name);
   console.log(cartItem);
   return (
@@ -13,6 +13,12 @@ const Cart = ({ cartItem }) => {
 
           <div className="card-actions ">
             <button className="btn btn-primary">{price}</button>
+            <button
+              onClick={() => handleRemoveCart(id)}
+              className="btn btn-error"
+            >
+              Remove
+            </button>
           </div>
         </div>
       </div>

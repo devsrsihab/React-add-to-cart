@@ -1,5 +1,9 @@
 import { useState, useEffect } from "react";
-import { addToLS, getStorageCart } from "../../Utilities/Cart";
+import {
+  addToLS,
+  getStorageCart,
+  removeCartFromLS,
+} from "../../Utilities/Cart";
 import Watch from "./Watch";
 import Cart from "./Cart";
 
@@ -45,6 +49,12 @@ const Watches = () => {
     addToLS(items.id);
   };
 
+  const handleRemoveCart = (id) => {
+    console.log("cart removed log");
+    removeCartFromLS(id);
+    setCart(cart.filter((item) => item.id !== id));
+  };
+
   return (
     <>
       <div className="container mx-auto">
@@ -56,7 +66,11 @@ const Watches = () => {
         </h2>
         <div className="cart my-10 grid grid-cols-8">
           {cart.map((item, index) => (
-            <Cart key={index} cartItem={item}></Cart>
+            <Cart
+              handleRemoveCart={handleRemoveCart}
+              key={index}
+              cartItem={item}
+            ></Cart>
           ))}
         </div>
       </div>

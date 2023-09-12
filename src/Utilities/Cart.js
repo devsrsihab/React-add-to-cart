@@ -32,4 +32,11 @@ const addToLS = (id) => {
   cart.push(id);
   saveCartToLS(cart);
 };
-export { addToLS, getStorageCart };
+
+// remove cart items
+const removeCartFromLS = (id) => {
+  const cart = getStorageCart();
+  const newCart = cart.filter((item) => item !== id);
+  saveCartToLS(newCart);
+};
+export { addToLS, getStorageCart, removeCartFromLS };
